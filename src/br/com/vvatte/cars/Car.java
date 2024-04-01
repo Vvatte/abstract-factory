@@ -1,4 +1,4 @@
-package br.com.vvatte;
+package br.com.vvatte.cars;
 
 public abstract class Car {
 

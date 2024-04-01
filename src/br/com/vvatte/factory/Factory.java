@@ -1,8 +1,10 @@
-package br.com.vvatte;
+package br.com.vvatte.factory;
+
+import br.com.vvatte.cars.Car;
 
 public abstract class Factory {
 
-    public  Car create(String requestedGrade) {
+    public Car create(String requestedGrade) {
         Car car = retriveCar(requestedGrade);
         car = prepareCar(car);
         return car;
